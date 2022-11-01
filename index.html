@@ -1,54 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Calculator</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="container">
-		<div class="display"></div>
-		<div class="keys">
-			<!-- <button class="input_keys key_function" >+</button>
-			<button class="input_keys key_function" >-</button>
-			<button class="input_keys key_function" >x</button>
-			<button class="input_keys key_function" >/</button>
-			<button class="input_keys">7</button>
-			<button class="input_keys">8</button>
-			<button class="input_keys">9</button>
-			<button id="equals" class="input_keys">=</button>
-			<button class="input_keys">4</button>
-			<button class="input_keys">5</button>
-			<button class="input_keys">6</button>
-			<button class="input_keys">1</button>
-			<button class="input_keys">2</button>
-			<button class="input_keys">3</button>
-			<button class="input_keys">0</button>
-			<button class="input_keys">.</button>
-			<button class="input_keys">AC</button> -->
-			<button class="input_keys key_function" >+</button>
-			<button class="input_keys key_function" >-</button>
-			<button class="input_keys key_function" >x</button>
-			<button class="input_keys key_function" >/</button>
-			<button class="input_keys">7</button>
-			<button class="input_keys">8</button>
-			<button class="input_keys">9</button>
-			<button id="equals" class="input_keys">=</button>
-			<button class="input_keys">4</button>
-			<button class="input_keys">5</button>
-			<button class="input_keys">6</button>
-			<button class="input_keys">1</button>
-			<button class="input_keys">2</button>
-			<button class="input_keys">3</button>
-			<button class="input_keys">0</button>
-			<button class="input_keys">.</button>
-			<button class="input_keys">AC</button>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body><div class="container">
+    <div class="display">
+      <input type="text" placeholder="0" id="input" disabled>
+    </div>
+    <div class="keys">
+      <input type="button" value="+" class="input-keys key-function" /> 
+    <input type="button" value="-" class="input-keys key-function" />
+    <input type="button" value="*" class="input-keys key-function" />
+    <input type="button" value="/" class="input-keys key-function" />
+        
+        <input type="button" value="7" class="input-keys" />
+        <input type="button" value="8" class="input-keys" />
+        <input type="button" value="9" class="input-keys" /> 
+        
+        <input type="button" value="=" id="equals" />
+        <input type="button" value="4" class="input-keys" />
+        <input type="button" value="5" class="input-keys" />
+        <input type="button" value="6" class="input-keys" />
+        <input type="button" value="1" class="input-keys" />
+        <input type="button" value="2" class="input-keys" />
+        <input type="button" value="3" class="input-keys" />
+        <input type="button" value="0" class="input-keys" />
+        <input type="button" value="." class="input-keys" />
+        <input type="button" value="DEL" id="erase" />
+        <input type="button" value="AC" id="clear" />
 
-			
-		</div>
-		
-	</div>
-	<script src="script.js"></script>
-</body>
+      
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+  
+  </body>
 </html>
