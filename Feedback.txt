@@ -1,0 +1,7 @@
+Hello ZevLisky this is your Hackaton feedback
+
+I liked your project it is very well executed using DRY code. well utiliztion of event listeners and DOM manipulation.
+
+The styling it is also correct and look good. 
+
+Well done and congratulations.
